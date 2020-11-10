@@ -4,4 +4,5 @@ RUN \
   apk add --update make && \
   apk add --update curl && \
   apk add --update openssh-client && \
+  apk add --update rsync && \
   npm install --global gulp-cli
